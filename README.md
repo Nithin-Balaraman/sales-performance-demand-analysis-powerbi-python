@@ -1,10 +1,20 @@
 # Sales Performance and Demand Analysis using Power BI and Python
 
-This project analyzes sales performance, product contribution, regional performance, dealer contribution, and demand patterns using Power BI dashboards and Python-based statistical analysis.
+## Project Overview
 
-The main objective of this project is to convert raw sales data into meaningful business insights that can support decision-making in sales planning, product strategy, dealer management, and demand analysis.
+This project analyzes historical sales transaction data to understand sales performance, product contribution, regional performance, dealer contribution, and demand patterns.
 
-## Tools Used
+The project uses Power BI for dashboard creation and Python for statistical analysis. The main purpose is to convert raw sales data into meaningful business insights that can support sales planning, product strategy, dealer management, and demand analysis.
+
+## Dataset Overview
+
+- Dataset Type: Secondary sales transaction data
+- Records Analyzed: 4.5 lakh+ sales records
+- Time Period: FY 2019–2020 and FY 2020–2021
+- Final Columns Used: 27
+- Main Focus Areas: Sales performance, product category analysis, regional sales, dealer contribution, and demand classification
+
+## Tools and Technologies Used
 
 - Microsoft Excel
 - Power BI
@@ -15,6 +25,11 @@ The main objective of this project is to convert raw sales data into meaningful 
 - SciPy
 - Scikit-learn
 
-## Project Status
+## Repository Structure
 
-This repository is currently being organized with dashboard screenshots, Power BI files, Python analysis, and project documentation.
+```text
+dashboards/          Power BI dashboard screenshots
+powerbi/             Power BI project file
+python_analysis/     Python statistical analysis summary
+documentation/       Project summary, business insights, and data dictionary
+README.md            Project overview
